@@ -2,7 +2,7 @@ public class Movies
 {
     public string movieName;
     public string genre;
-    private string ratings; // makes the variable private
+    private string ratings; // makes the variable private (encapsulation)
 
     public Movies(string AmovieName, string Agenre, string Aratings)
     {
