@@ -4,6 +4,7 @@
 // old way of things
 using System;
 using System.IO.Compression;
+using System.Runtime;
 
 namespace HelloWorld
 {
@@ -143,15 +144,77 @@ namespace HelloWorld
             // Console.WriteLine("You lose :(");
 
             //  For Loop
+            // string[] spNum = ["bob", "lela", "sam", "ben", "can"];
+            // for (int i = 0; i < 5; i++)
+            // {
+            //     spNum[i] = spNum[i] + " young";
+            //     Console.WriteLine(spNum[i]);
+            // }
 
-            string[] spNum = ["bob", "lela", "sam", "ben", "can"];
+            // Console.WriteLine(PowerFun(4, 2));
 
-            for (int i = 0; i < 5; i++)
+            // 2D array
+            // int[,] numGrid = {
+            //     {1,2,3},
+            //     {2,3,4},
+            //     {1,2,4}
+            // };
+            // Console.WriteLine(numGrid[2, 2]);
+
+            // Expection Handling
+            // try
+            // {
+            //     Console.Write("Enter a Num: ");
+            //     int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //     Console.Write("Enter another Num: ");
+            //     int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //     Console.WriteLine(num1 / num2);
+            // }
+            // catch (DivideByZeroException e)
+            // {
+            //     Console.WriteLine(e.Message);
+            // }
+            // catch (FormatException e)
+            // {
+            //     Console.WriteLine(e.Message);
+            // }
+
+            // finally
+            // {
+            //     // Anything here will be executed no matter what.
+            // }
+
+            // // Instance of the class Book
+            // Book book1 = new Book("Harry potter", "JK Rowling", 400);
+            // book1.author = "young";
+            // Console.WriteLine(book1.author);
+
+            // // Instance of the class Student
+            // Student sam1 = new("Sam", "Elect", 3.8); // New way of things just the `new` would do
+            // Student ben1 = new("Ben", "Pol Sci", 2.5);
+
+            // Console.WriteLine(sam1.HasHonors());
+            // Console.WriteLine(ben1.HasHonors());
+
+            // Instance of the class Movies
+            Movies mov1 = new("Avengers", "Action", "PG-13");
+            Movies mov2 = new("IRobot", "Action", "P13");
+            Console.WriteLine(mov1.Ratings);
+            Console.WriteLine(mov2.Ratings);
+
+
+        }
+        static int PowerFun(int baseNum, int powNum)
+        {
+            int result = 1;
+            for (int j = 0; j < powNum; j++)
             {
-                Console.WriteLine(spNum[i]);
+                result = result * baseNum;
+
             }
-
-
+            return result;
         }
         static string GetDay(int day)
         {

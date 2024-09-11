@@ -12,3 +12,4 @@
 /Users/fortyung/Developer/c_prog/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
 /Users/fortyung/Developer/c_prog/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
 /Users/fortyung/Developer/c_prog/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
+/Users/fortyung/Developer/c_prog/HelloWorld/obj/Debug/net8.0/HelloWorld.sourcelink.json
