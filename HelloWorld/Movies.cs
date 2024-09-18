@@ -1,8 +1,9 @@
-public class Movies
+class Movies
 {
     public string movieName;
     public string genre;
     private string ratings; // makes the variable private (encapsulation)
+    public static int movieCount = 0; // Static class artibute
 
     public Movies(string AmovieName, string Agenre, string Aratings)
     {
@@ -10,6 +11,7 @@ public class Movies
         movieName = AmovieName;
         genre = Agenre;
         Ratings = Aratings; // Setting the Ratings here
+        movieCount++;
 
     }
 
@@ -29,5 +31,7 @@ public class Movies
             }
         }
     }
+
+    public int getCount() => movieCount;
 
 }

@@ -2,7 +2,7 @@ using System.Reflection;
 
 namespace HelloWorld
 {
-    public class Student
+    class Student
     {
         public string name;
         public string major;

@@ -199,10 +199,22 @@ namespace HelloWorld
             // Console.WriteLine(ben1.HasHonors());
 
             // Instance of the class Movies
-            Movies mov1 = new("Avengers", "Action", "PG-13");
-            Movies mov2 = new("IRobot", "Action", "P13");
-            Console.WriteLine(mov1.Ratings);
-            Console.WriteLine(mov2.Ratings);
+            // Movies mov1 = new("Avengers", "Action", "PG-13");
+            // Movies mov2 = new("IRobot", "Action", "P13");
+            // Console.WriteLine(mov1.Ratings);
+            // Console.WriteLine(mov2.Ratings);
+            // Console.WriteLine(mov1.getCount());
+
+
+            // UsefulTools.SayHi("mike");
+
+            // Instance of the class Chef
+            Chef c11 = new();
+            c11.MakeSpecialDish();
+
+            NigerianChef c22 = new();
+            c22.MakeSpecialDish();
+
 
 
         }
